@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modelo práctica T5</title>
+
+  <!-- X3DOM: visor 3D para archivos .x3d -->
+  <script type="text/javascript" src="https://www.x3dom.org/download/x3dom.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://www.x3dom.org/download/x3dom.css"/>
+
+  <style>
+    body {
+      background-color: #1a1a1a;
+      color: white;
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 20px;
+      font-size: 24px;
+    }
+
+    x3d {
+      width: 90vw;
+      height: 90vh;
+      border: 2px solid #444;
+      margin: auto;
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Hecho en Meshlab</h1>
+
+  <x3d>
+    <scene>
+      <inline url="https://raw.githubusercontent.com/FBUNED/practica-t5-uned/refs/heads/main/model.x3d"></inline>
+    </scene>
+  </x3d>
+
+  <p style="margin: 20px;">Modelo práctica T5 - UNED</p>
+</body>
+</html>
